@@ -74,14 +74,20 @@ website:   	http://www.themepunch.com
 .rtl {
     direction: rtl;
 }
-@font-face {
+/* @font-face {
     font-family: revicons;
     src: url(../fonts/revicons/revicons.eot?5510888);
     src: url(../fonts/revicons/revicons.eot?5510888#iefix) format("embedded-opentype"), url(../fonts/revicons/revicons.woff?5510888) format("woff"), url(../fonts/revicons/revicons.ttf?5510888) format("truetype"),
         url(../fonts/revicons/revicons.svg?5510888#revicons) format("svg");
     font-weight: 400;
     font-style: normal;
-}
+} */
+@font-face {
+    font-family:"degular";
+    src:url("https://use.typekit.net/af/b9de29/00000000000000007735c859/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/b9de29/00000000000000007735c859/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/b9de29/00000000000000007735c859/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+    font-display:auto;font-style:normal;font-weight:200;font-stretch:normal;
+    }
+    
 [class*=" revicon-"]:before,
 [class^="revicon-"]:before {
     font-family: revicons;
@@ -1901,7 +1907,7 @@ body.rtl .tp-kbimg {
 }
 
 #rev_slider_3_1 .tp-caption {
-    font-family: "Montserrat", sans-serif;
+    font-family: "semibold", Degular;
 }
 
 #rev_slider_3_1 .tp-caption .secondary-font {

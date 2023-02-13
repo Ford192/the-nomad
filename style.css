@@ -9965,7 +9965,7 @@ Counterup Area
     visibility: hidden;
     background-blend-mode: multiply;
     background-size: cover;
-    background-color: #0038E3;
+    background-color: #050506;
     -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     -o-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
     transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1); }
@@ -26692,7 +26692,7 @@ body.template-color-1 .messonry-button button.is-checked span.filter-text {
   color: #0038E3; }
 
 body.template-color-1 .portfolio.portfolio_style--1 .port-overlay-info {
-  background-color: #0038E3; }
+  background-color: #1010119c; }
 
 body.template-color-1 .testimonial_style--2 .content .testimonial-info .testimonial-quote {
   color: #0038E3; }
